@@ -1,0 +1,28 @@
+# Entornos y dependencias
+.venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+
+# Repos de referencia clonados (no se versionan aquí)
+vendor/
+
+# Proyectos generados en runtime
+projects/
+
+# Artefactos de HyperFrames / renders intermedios
+.hyperframes/
+renders/
+*.norm.mp4
+output/work-*
+output/.*.hf-transaction-*
+*.egg-info/
+
+# SO
+.DS_Store
+
+# Secretos y caché de proveedores de pago
+.env
+.env.*
+!.env.example
+cache/
